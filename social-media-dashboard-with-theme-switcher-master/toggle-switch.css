@@ -18,7 +18,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background
+    : linear-gradient(0deg, #196b8f 0%, rgba(195, 203, 212, 0.884) 100%);
     -webkit-transition: .4s;
     transition: .4s;
   }

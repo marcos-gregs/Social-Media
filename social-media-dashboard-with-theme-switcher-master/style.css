@@ -1,6 +1,22 @@
 body{
-    background-color: #071a36;
+    background-color: var(--bg);
     font-family: 'Roboto', sans-serif;
+}
+.modeDark{
+    --bg:#04142C;
+    --hover-bg:hsl(232, 69%, 37%);
+    --card-bg:#0B206C;
+    --text-main:white;
+    --text-secondary:#907D7D;
+
+}
+.modeLight{
+    --bg:hsl(0, 0%, 100%);
+    --hover-bg:hsl(228, 52%, 56%);
+    --card-bg:hsl(228, 47%, 71%);
+    --text-main: hsl(230, 17%, 14%);
+    --text-secondary: hsl(228, 12%, 44%);
+
 }
 .flex{
     display: flex;
@@ -9,16 +25,15 @@ body{
 }
 .header{
     margin: 40px;
-    color: white;
+    color:var(--text-main);
     
 }
-/* 907D7D */
 .social-container p{
       size: 26px;
 
 }
 .social-container p{
-    color: #907d7d;
+    color: var(--text-secondary);
     size: 24px;
 
 }
@@ -57,7 +72,7 @@ body{
 }
 
 .main-card{
-    background: #0B206C
+    background:var(--card-bg)
     ;
     margin-bottom: 22px;
     padding: 28px 0;
@@ -66,7 +81,7 @@ body{
     border-top: 5px solid transparent;
     }
 .main-card:hover{
-    background:  hsl(232, 74%, 18%);;
+    background:  var(--hover-bg);
 }
 .main-card:nth-child(1) {
     border-top-color:#1228EF
@@ -101,7 +116,7 @@ body{
 }
 /* Container Cards */
 .username{
-    color:#D9B6B6 ;
+    color:var(--text-main) ;
     margin-bottom: 30px;
     font-weight: bold;
     display: flex;
@@ -132,14 +147,14 @@ body{
 
 /* sub-containr-card */
 .followers-numbers{
-    color: #D9B6B6;
+    color: var(--text-main);
     font-size: 42px;
     line-height: 42px;
     margin-bottom: 8px;
 
 }
 .follow-title{
-    color:#907d7d ;
+    color:var(--text-secondary) ;
 }
 .follow-today{
     font-weight: bold;   
@@ -168,7 +183,7 @@ body{
 
 /* Container-Overview */
 .overview-title{
-color:#ecdede ;
+color:var(--text-secondary) ;
 font-size: 18px;
 margin: 10px 30px 24px;
 
@@ -195,7 +210,7 @@ margin: 10px 30px 24px;
 }
 
 .card-overview{
-    background-color: #0B206C;
+    background-color: var(--card-bg);
     margin-bottom: 22px;
     padding: 22px;
     border-radius: 5px;
@@ -204,13 +219,34 @@ margin: 10px 30px 24px;
     align-items: center;
 }
 .card-overview:hover{
-    background:hsl(232, 74%, 18%) ;
+    background:var(--hover-bg) ;
 }
 .number-overview p{
-    color: #D9B6B6;
+    color: var(--text-secondary);
     text-align: left;
+    margin-bottom: 18px;
+    line-height: 24px;
+    font-weight: bold;
 }
 .number-overview h2{
-    color: hsl(0, 23%, 94%);
+    color: var(--text-main);
+    font-size: 14px;
 
 }
+.percent-overview{
+    text-align: right;
+
+}
+ .percent-overview i:first-child{
+     font-size: 24px;
+     margin-bottom: 18px;
+ }
+ .percent-overview p{
+     font-size: 12px;
+     padding-top: 4px;
+     font-weight: bold;
+     height: 12px;
+ }
+ /* .attribution{
+
+ } */
