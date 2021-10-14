@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Icon -->
+  <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="toggle-switch.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class=" header flex">
+  <div class="social-container">
+    <h2>Social Media Dashboard</h2>
+    <p>Total Followers: 23,004</p>
+  </div>
+   
+  <!--Toggle Swicth arrendondado  -->
+  <div class="toogle-container">
+      <span>Dark Mode </span>  
+      <label class='switch'>
+        <input type='checkbox' checked>
+        <span class="slider round"></span>
+      </label>
+  </div>  
+  </header>
+
+  <!-- End Header -->
+
+  <!-- Main Cards -->
+  <section class="container-cards">
+    
+    <div class="main-card">
+      <p class="username"><i class="fab fa-facebook-square"></i>@nathanf</p>
+      <h1 class="followers-numbers">1987</h1>
+      <p class="follow-title">FOLLOWERS</p>
+      <p class="follow-today up"><i class="fas fa-caret-up"></i>12 Today</p>
+    </div>
+   
+    <div class="main-card">
+      <p class="username twitter"><i class="fab fa-twitter"></i>@nathanf</p>
+      <h1 class="followers-numbers">1987</h1>
+      <p class="follow-title">FOLLOWERS</p>
+      <p class="follow-today up"><i class="fas fa-caret-up"></i>12 Today</p>
+
+    </div>
+    
+    <div class="main-card">
+      <p class="username instagram"><i class="fab fa-instagram"></i>@nathanf</p>
+      <h1 class="followers-numbers">1987</h1>
+      <p class="follow-title">FOLLOWERS</p>
+      <p class="follow-today up"><i class="fas fa-caret-up"></i>12 Today</p>
+
+    </div>
+
+    <div class="main-card">
+      <p class="username youtube-square"><i class="fab fa-youtube-square"></i>@nathanf</p>
+      <h1 class="followers-numbers">1987</h1>
+      <p class="follow-title">FOLLOWERS</p>
+      <p class="follow-today down"><i class="fas fa-caret-down"></i>12 Today</p>
+
+    </div>
+  </section>
+  <!-- End main Card -->
+
+  <!-- Overview -->
+  <h3 class="overview-title">Overview-Today</h3>
+  <section class="overview-container">
+    <!-- 1 FILEIRA -->
+    <div class="card-overview">
+        <div class="number-overview">
+          <p>Page Views</p>
+          <h2>87</h2>
+        </div>
+        <div class="percent-overview">
+          <i class="fab fa-facebook-square"></i>
+          <p class="up"> <i class=" fas fa-caret-up"></i>3%</p>
+        </div>
+      </div>
+    
+    <div class="card-overview">
+      <div class="number-overview">
+        <p>Retweets</p>
+        <h2>87</h2>
+      </div>
+      <div class="percent-overview">
+        <i class="fab fa-twitter"></i>
+        <p class="up"> <i class=" fas fa-caret-up"></i>3%</p>
+      </div>
+    </div> 
+
+  <div class="card-overview">
+    <div class="number-overview">
+      <p>Profile Views</p>
+      <h2>87</h2>
+    </div>
+    <div class="percent-overview">
+      <i class="fab fa-instagram"></i>
+      <p class="up"> <i class=" fas fa-caret-up"></i>3%</p>
+    </div>
+  </div> 
+
+  <div class="card-overview">
+    <div class="number-overview">
+      <p>Total Views</p>
+      <h2>87</h2>
+    </div>
+    <div class="percent-overview">
+      <i class="fab fa-youtube-square"></i>
+      <p class="down"> <i class=" fas fa-caret-down"></i>3%</p>
+    </div>
+    </div> 
+    <!-- 2 Fileira  -->
+    <div class="card-overview">
+      <div class="number-overview">
+        <p>Likes</p>
+        <h2>87</h2>
+      </div>
+      <div class="percent-overview">
+        <i class="fab fa-facebook-square"></i>
+        <p class="up"> <i class=" fas fa-caret-up"></i>3%</p>
+      </div>
+    </div>
+  
+  <div class="card-overview">
+    <div class="number-overview">
+      <p>Likes</p>
+      <h2>87</h2>
+    </div>
+    <div class="percent-overview">
+      <i class="fab fa-twitter"></i>
+      <p class="up"> <i class=" fas fa-caret-up"></i>3%</p>
+    </div>
+  </div> 
+
+<div class="card-overview">
+  <div class="number-overview">
+    <p>Likes</p>
+    <h2>87</h2>
+  </div>
+  <div class="percent-overview">
+    <i class="fab fa-instagram"></i>
+    <p class="up"> <i class=" fas fa-caret-up"></i>3%</p>
+  </div>
+</div> 
+
+<div class="card-overview">
+  <div class="number-overview">
+    <p>Likes</p>
+    <h2>87</h2>
+  </div>
+  <div class="percent-overview">
+    <i class="fab fa-youtube-square"></i>
+    <p class="down"> <i class=" fas fa-caret-down"></i>3%</p>
+  </div>
+  </div> 
+
+   
+
+  </section>
+<!-- Padrão-exer
+  Social Media Dashboard
+  Total Followers: 23,004
+
+  Dark Mode
+
+  
+
+  @nathanf
+  1987
+  Followers
+  12 Today
+
+  @nathanf
+  1044
+  Followers
+  99 Today
+
+  @realnathanf
+  11k
+  Followers
+  1099 Today
+
+  Nathan F.
+  8239
+  Subscribers
+  144 Today
+
+
+
+  Overview - Today
+
+  Page Views
+  87
+  3%
+
+  Likes
+  52
+  2%
+
+  Likes
+  5462
+  2257%
+
+  Profile Views
+  52k
+  1375%
+
+  Retweets
+  117
+  303%
+
+  Likes
+  507
+  553%
+
+  Likes
+  107
+  19%
+
+  Total Views
+  1407
+  12%
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
